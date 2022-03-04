@@ -1,1 +1,699 @@
-this file for python notes
+History of python :
+
+Python was developed by guido van rossum in between 1985 - 1990 python is general purpose, interpreted, object-oriented, and high level programming language
+
+Application of python
+
+Web-application scripting, scientific computing, and artificial intelligence
+
+Features of python
+
+1] its support functional and structured programming method as well as oops
+
+2] it can be used as a scripting language or can be compiled to bytecode for building large application
+
+3] its provides very high level dynamic data type and support dynamic type checking
+
+4] it support automatic garbage collection
+
+5] it can be easily integrated with c, c++, java, com, activex
+
+
+Python is interpreted
+
+Python is processed at runtime by the interpreter. You do not need to compile your program before execution it.
+The interpreter operates somewhat live the unix shell when called standard input connected to the tty device, it reads and executes commands interactively.
+
+
+Keyword
+
+In programming a keyword is a reserved word by the language which convey special meaning to the interpreter. It may be a command or a parameter keyword can to be used as variable name in the program snippet keyword in python
+[
+and, or, not, if, elif, else, for, while, break, as, def, class, pass, return, True, False, try, with, assert, continue, del, except, finally, from, global, import, in. is, none, nonlocal, raise, yield
+]
+
+
+Comments
+Comments in python are the lines in the code that are ignored by the compiler during the execution of program.
+
+Comments are,
+1] single comment
+2[ multiline comments
+
+Single line comments is created using by #
+.py
+
+#this is my first program
+Name = “Rohit Ghule”
+print(Name)
+
+Multiline comments is using by “”” comments line “””
+.py
+“””This is multiline comments “””
+Name = “Rohit Ghule”
+print(Name)
+
+Purposes of comments :-
+
+Code readability
+Explanation of the code
+Prevent execution of code
+To include resource
+
+
+Variable
+
+Python is dynamically typed we do not need to declare variable before using them or declare their type a variable is created the moment we first assign a name given to a memory location.
+
+Rules of creating variable :
+
+Variable name must start with a letter or the underscore character
+A variable name can not start with a number
+A variable name can only contain alpha numeric character and under scores(A-Z,0-9,and_)
+Variable name are case-sensitive
+The reserved word (Keyword) can not be used naming the variable
+
+Operator in python
+In general used to perform operation on values and variable. These are standard symbols used for the purpose of logical and arithmetic operations.
+
+Arithmetic operator :
+
+Operator
+Description
+Syntax
++
+Addition
+X + Y
+-
+Subtraction
+X + Y
+*
+multiplication
+X + Y
+%
+Module
+X + Y
+**
+Power
+X + Y
+/
+Division(with floating)
+X + Y
+//
+Division(without floating point)
+X + Y
+
+
+Comparison Operator :
+
+relational / comparison operator compare two values it either return True or False according to the condition
+
+Operator
+Description
+Syntax
+>
+Greater than
+X > Y
+
+<
+Less than
+X < Y
+
+==
+Equal to
+X == Y
+
+!=
+Not equal to
+X != Y
+
+>=
+Greater than or equal to
+X >= Y
+
+<=
+Less than or equal to
+X <= Y
+
+
+Logical operator :
+
+Logical operator perform logical using logical operation like logical AND, logical OR, logical NOT
+
+Operator
+Description
+Syntax
+and
+Logical AND
+X and Y
+or
+Logical OR
+X orY
+not
+Logical not
+X notY
+
+
+Bitwise operator :
+
+Bitwise operator cut on bits and perform the bit-by-bit operation
+
+Operator
+Description
+Syntax
+&
+Bitwise ANDING operation
+X & Y
+|
+Bitwise OR operation
+X | Y
+~
+Bitwise NOT operation
+X ~ Y
+^
+Bitwise EX-OR operation
+X ^ Y
+>>
+Bitwise shift right
+X >> Y
+<<
+Bitwise shift left
+X << Y
+
+
+Assignment operator :
+
+Assignment operator are used to assigning values to the variables
+
+
+Operator
+Description
+Syntax
+=
+Assign value to left of the variable
+X = Y
++=
+Adding and Assign value to left of the variable
+X += Y
+-=
+Subtract and Assign value to left of the variable
+X -= Y
+*=
+Multiplication and Assign value to left of the variable
+X *= Y
+/=
+Division with float point and Assign value to left of the variable
+X << Y
+//=
+Division without floating point and Assign value to left of the variable
+X << Y
+%=
+Perform division and Assign reminder  value to left of the variable
+X << Y
+**=
+Perform power and Assign value to left of the variable
+X << Y
+&=
+Perform anding right side of operand and  Assign value to left of the variable
+X << Y
+|=
+Perform or right side of operand and  Assign value to left of the variable
+X << Y
+^=
+Perform ex-or right side of operand and  Assign value to left of the variable
+X << Y
+>>=
+Perform right shift to right side of operand and  Assign value to left of the variable
+X << Y
+<<=
+Perform perform left side of shift  right side of operand and  Assign value to left of the variable
+X << Y
+
+
+Identity operator :
+
+Is and is not are the identity operator in python
+
+Is : True if both oprand are same
+Is not : True when both oprand are not same
+
+Data types in Python
+
+
+It represent the kind of values that tell what operation can be performed on a particular data
+
+Numeric data type :
+Integer
+Float
+Complex number
+
+Sequence data type :
+String :  is a collection of one or more characters put in a single quote, double-quote or triple quote.
+Creating string like
+.py
+Name = “rohit ghule” #this is string
+print(Name)
+
+String support indexing,slicing etc
+
+List : list is like array of C++ language it contain heterogeneous data in one container/list. It created using [ ] bracket as below
+.py
+Lis = [1,2,3,4,5] #this is list
+print(Lis)
+
+List can support indexing, slicing. Reverse, negative indexing,
+
+Set : is created using { } parenthesis and also is contain heterogeneous data which can be make flexible itself even though it can not be contain duplicates element within it and also is is mutable data structure
+            .py
+             Lis = [1,2,3,4,5]
+             Se = set(Lis)
+             print(Se)
+
+           Also set element can not be accessing by its indexing, it appear
+randomly indexing
+
+Dictionary : in python there are unorderd data structure which is pair of keys and values, it can be created by using { } parentheses in there contain pair which is key and value
+Like .py
+Dic = {“one”:1,”two”:2,”three”:3}
+print(Dic)
+
+Boolean data type:
+
+Boolean data type one of the two values which is True and False
+Which is in technical or in machine language called 0 and 1 values
+
+Python oops Concepts
+
+In python object-oriented programming is a programming paradigm that uses object and classes in programming it aims to implement real world entities such as inheritance, polymorphism,ecapsulation etc in programming
+
+Concepts :
+Class
+Object
+Inheritance
+Polymorphism
+Encapsulation
+
+Class : class is collection of object. A class contain blueprint or prototype when object is being created. In python class is created using “class” keyword ex.
+.py
+Class bird:
+    def __init__(self):
+            Pass
+
+Object : the object is an entity that has a state and behavior associated with it.  It may a real world object like mouse, chairs, birds, humans etc everything we see is the objects
+Object contain its state, behavioural, and identity
+
+Inheritance : inheritance is the capability of one class which inherit or derive the properties of another class, it just like shows the real world relationship
+.py
+Class A:
+  Pass
+Class B(A):
+  Pass
+
+Polymorphism : polymorphism is nothing but having many form, for ex. We need to determine birds, some birds can not fly and some birds cant fly this kind of example which suited concept of polymorphism
+
+Encapsulation : this means that wrapping up the attributes/data and method in one unit This puts restrictions on accessing variables and methods directly and can prevent the accidental modification of data.
+
+Operator in python
+In general used to perform operation on values and variable. These are standard symbols used for the purpose of logical and arithmetic operations.
+
+Arithmetic operator :
+
+Operator
+Description
+Syntax
++
+Addition
+X + Y
+-
+Subtraction
+X + Y
+*
+multiplication
+X + Y
+%
+Module
+X + Y
+**
+Power
+X + Y
+/
+Division(with floating)
+X + Y
+//
+Division(without floating point)
+X + Y
+
+
+Comparison Operator :
+
+relational / comparison operator compare two values it either return True or False according to the condition
+
+Operator
+Description
+Syntax
+>
+Greater than
+X > Y
+<
+Less than
+X < Y
+==
+Equal to
+X == Y
+!=
+Not equal to
+X != Y
+>=
+Greater than or equal to
+X >= Y
+<=
+Less than or equal to
+X <= Y
+
+
+Logical operator :
+
+Logical operator perform logical using logical operation like logical AND, logical OR, logical NOT
+
+Operator
+Description
+Syntax
+and
+Logical AND
+X and Y
+or
+Logical OR
+X orY
+not
+Logical not
+X notY
+
+
+Bitwise operator :
+
+Bitwise operator cut on bits and perform the bit-by-bit operation
+
+Operator
+Description
+Syntax
+&
+Bitwise ANDING operation
+X & Y
+|
+Bitwise OR operation
+X | Y
+~
+Bitwise NOT operation
+X ~ Y
+^
+Bitwise EX-OR operation
+X ^ Y
+>>
+Bitwise shift right
+X >> Y
+<<
+Bitwise shift left
+X << Y
+
+
+Assignment operator :
+
+Assignment operator are used to assigning values to the variables
+
+
+Operator
+Description
+Syntax
+=
+Assign value to left of the variable
+X = Y
++=
+Adding and Assign value to left of the variable
+X += Y
+-=
+Subtract and Assign value to left of the variable
+X -= Y
+*=
+Multiplication and Assign value to left of the variable
+X *= Y
+/=
+Division with float point and Assign value to left of the variable
+X << Y
+//=
+Division without floating point and Assign value to left of the variable
+X << Y
+%=
+Perform division and Assign reminder  value to left of the variable
+X << Y
+**=
+Perform power and Assign value to left of the variable
+X << Y
+&=
+Perform anding right side of operand and  Assign value to left of the variable
+X << Y
+|=
+Perform or right side of operand and  Assign value to left of the variable
+X << Y
+^=
+Perform ex-or right side of operand and  Assign value to left of the variable
+X << Y
+>>=
+Perform right shift to right side of operand and  Assign value to left of the variable
+X << Y
+<<=
+Perform perform left side of shift  right side of operand and  Assign value to left of the variable
+X << Y
+
+
+Identity operator :
+
+Is and is not are the identity operator in python
+
+Is : True if both oprand are same
+Is not : True when both oprand are not same
+Data types in Python
+
+
+It represent the kind of values that tell what operation can be performed on a particular data
+
+Numeric data type :
+Integer
+Float
+Complex number
+
+Sequence data type :
+String :  is a collection of one or more characters put in a single quote, double-quote or triple quote.
+Creating string like
+.py
+Name = “rohit ghule” #this is string
+print(Name)
+
+String support indexing,slicing etc
+
+List : list is like array of C++ language it contain heterogeneous data in one container/list. It created using [ ] bracket as below
+.py
+Lis = [1,2,3,4,5] #this is list
+print(Lis)
+
+List can support indexing, slicing. Reverse, negative indexing,
+
+Set : is created using { } parenthesis and also is contain heterogeneous data which can be make flexible itself even though it can not be contain duplicates element within it and also is is mutable data structure
+            .py
+             Lis = [1,2,3,4,5]
+             Se = set(Lis)
+             print(Se)
+
+           Also set element can not be accessing by its indexing, it appear
+randomly indexing
+
+Dictionary : in python there are unorderd data structure which is pair of keys and values, it can be created by using { } parentheses in there contain pair which is key and value
+Like .py
+Dic = {“one”:1,”two”:2,”three”:3}
+print(Dic)
+
+Boolean data type:
+
+Boolean data type one of the two values which is True and False
+Which is in technical or in machine language called 0 and 1 values
+
+
+Python oops Concepts
+In python object-oriented programming is a programming paradigm that uses object and classes in programming it aims to implement real world entities such as inheritance, polymorphism,ecapsulation etc in programming
+
+Concepts :
+Class
+Object
+Inheritance
+Polymorphism
+Encapsulation
+
+Class : class is collection of object. A class contain blueprint or prototype when object is being created. In python class is created using “class” keyword ex.
+.py
+Class bird:
+    def __init__(self):
+            Pass
+
+Object : the object is an entity that has a state and behavior associated with it.  It may a real world object like mouse, chairs, birds, humans etc everything we see is the objects
+Object contain its state, behavioural, and identity
+
+Inheritance : inheritance is the capability of one class which inherit or derive the properties of another class, it just like shows the real world relationship
+.py
+Class A:
+  Pass
+Class B(A):
+  Pass
+
+Polymorphism : polymorphism is nothing but having many form, for ex. We need to determine birds, some birds can not fly and some birds cant fly this kind of example which suited concept of polymorphism
+
+Encapsulation : this means that wrapping up the attributes/data and method in one unit This puts restrictions on accessing variables and methods directly and can prevent the accidental modification of data.
+
+
+
+
+Python modules
+Module :  module can define functions, classes, and variables. A module can also include runnable code. Grouping related code into a module makes the code easier to understand and use
+Using import keyword we can import module in code and using them reduce the code complexity as well
+As below we can import module
+Import math
+X = math.factorial(5)
+print(X)
+
+As above we import math module and using the factorial function of math we reduce the line of code where we will use for the factorial of any no
+
+There are no.of in built module in python and also we can use third party as well by importiing them, in build python modules are like math, sys, random, datatime etc
+Practice program
+#importing math module for calculating factorial
+import math
+x = int(input())
+x = math.factorial(x)
+print(x)
+
+#creat class and object
+
+class birds:
+    def intro(self):
+        print("this is for birds")
+    def flight(self):
+        print("some birds can not fly ")
+
+class ostrich(birds):
+    def intro(self):
+        print("this is for ostrich bird")
+    def flight(self):
+        print("ostrich can not fly ")
+
+class sparrow(birds):
+    def intro(self):
+        print("this is for sparrow bird")
+    def flight(self):
+        print("sparrow can fly")
+
+obj = birds()
+obj.intro()
+obj.flight()
+
+obj2 = ostrich()
+obj2.intro()
+obj2.flight()
+
+obj3 = sparrow()
+obj3.intro()
+obj3.flight()
+
+
+02/03/2022
+
+Class Definition and syntax
+Class : class is user define data structure. Class is bluprint or prototype of an object when object being created, in class there have attributes and methods to the manipulating data of an object, class created by using class syntax
+Like below .
+Class also have constructor and distructor these are one of the functions which automatically called when objects get created or deleted
+Self We will use self in classes to represent the instance of an object. We can create multiple of a class and each instance will have different values. And self helps us to get those property values within the class instance
+
+def __init__(self):#constructor
+        print("this is constructor")
+def __del__(self):#destructor
+        print("this is destructor when object gets deleted")
+Class object, Instance of object
+Class object is instance of class when object s being created at that time class will be initialized automatically however when instance of object is being created automatically memory allotted to the class
+Objects are contain some kind of attributes which is identity, behavioral, and state
+Is like, when we crete bird class which means object is one of the bird like sparrow, ostrich as we created class before ostrich cant fly it voice is far different from sparrow so  we called its behaviour, about the attributes is kind of age, color, hight this kind of attributes it has hence abou the identity sparrow and ostrich is looking far different from each other but they belongs from same spacies
+
+class birds:
+    def intro(self):
+        print("this is for birds")
+    def flight(self):
+        print("some birds can not fly ")
+
+class ostrich(birds):
+    def intro(self):
+        print("this is for ostrich bird")
+    def flight(self):
+        print("ostrich can not fly ")
+
+class sparrow(birds):
+    def intro(self):
+        print("this is for sparrow bird")
+
+    def flight(self):
+        print("sparrow can fly")
+
+obj = birds()
+obj.intro()
+obj.flight()
+
+obj2 = ostrich()
+obj2.intro()
+obj2.flight()
+
+
+obj3 = sparrow()
+obj3.intro()
+obj3.flight()
+
+
+Method object ,Class and instance variable
+Defining of class we define its own attributes and function/methods, when we accessing these methods or attributes outside of class we assign its object which is like
+object.method(parameter) this is basic syntax of accessing method outside of class as below example.
+
+class Birds:
+    name = ""
+    def Intro(self):
+        print("this is for birds ")
+    def birdsname(self,name):
+        print(name)
+
+obj = Birds()
+obj.Intro()
+obj.name = "sparrow"
+obj.birdsname(obj.name)
+Control statement
+Continue, break, pass these are control loop statement used for controlling loops which is for loop, nested for loop, while loop
+for loop in python is used for sequntial traversal
+Syntax
+for variable in sequence:
+    # statement
+
+while loop is used to execute a block of statements repeatedly until a given condition is satisfied
+Syntax :
+while condition:
+    # statement
+
+
+conditional statement
+In python decision making is given the basis of conditional statment using if, elif, else etc whenever condition is true
+If condition is follows when condition gets satisfy like
+
+if condition:
+ #statement
+
+When above condition is either true then if block will be executed or gets False then this block of code ignored by the interpreter/compiler
+
+elif condition:
+  #statement
+
+When if conditional statement gets False then elif condition will be checked hence if it is True so follows the elif block or False also gets ignored
+
+else:
+    #  statement
+
+Howere all if and elif condition gets False then the last else statement gets follows by default
