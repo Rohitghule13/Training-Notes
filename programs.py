@@ -34,3 +34,15 @@ for i in name:
     if i=='i': #ignore i char
         continue #it jump to the next
     print(i,end="")
+print()
+
+# find duplicate number
+def Find_duplicates(lis):
+    lis2 = list(set(lis))
+    dup = []
+    for i in range(len(lis2)):
+        if lis.count(lis2[i])>1:
+            dup.append(lis2[i])
+    return dup
+lis = [1,2,3,4,5,1,2,5]
+print("Duplicates Number in List : ",Find_duplicates(lis))
