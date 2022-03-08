@@ -1,0 +1,26 @@
+.divstyle {
+    margin: 50px;
+    padding: 50px;
+    background-color: antiquewhite;
+}
+
+.divflex {
+    display: flex;
+}
+
+.divimgstyle {
+    margin: 50px;
+    padding: 50px;
+    background-color: antiquewhite;
+}
+
+.img-trans {
+    width: 200px;
+    height: 200px;
+    transition: transform 1s;
+}
+
+.img-trans:hover {
+    cursor: pointer;
+    transition: cubic-bezier(1, 0, 0, 1);
+}
