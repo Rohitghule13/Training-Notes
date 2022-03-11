@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./stylecss.css">
+    <script>
+        $(document).ready(function() {
+            $(".flip").click(function() {
+                $(".panel").solideToggle("slow");
+            });
+        });
+    </script>
+</head>
+
+<body style="background-color: antiquewhite;">
+    <div style="background-color: aqua;">
+        <h1>Display Warning</h1>
+    </div>
+    <div>
+        <div style="margin-top: 20px; margin-bottom: 180px; margin-left: 50px; margin-right: 500px;">
+            <h2>
+                Warning!
+                </h1>
+                <p>this is restricted area dont trying to enter</p>
+        </div>
+
+        <div class="div">
+            <h2 style="color: rgb(221, 103, 103);">
+                Warning!
+                </h1>
+                <p>
+                    this is restricted area dont trying to enter
+                </p>
+        </div>
+        <div style="display: flex;">
+            <div>
+                <h2>
+                    Success!
+                </h2>
+                <p style="padding-left: 50px;">congo! you done your job</p>
+            </div>
+            <div class="div">
+                <h2>Failure@</h2>
+                <p>failure is part of life dont mind get up set your enrgy at your pick run faster than ever before!</p>
+
+            </div>
+        </div>
+        <div style="background-color: lightblue;">
+            <h2>
+                Info
+            </h2>
+            <p>
+                this is general information to make your life easy
+            </p>
+        </div>
+        <div class="setteled" id="setteled" style="background-color: red;">
+            <h2>
+                Danger!<span>X</span>
+            </h2>
+            <p>
+                this is radio active area do not enter!
+            </p>
+        </div>
+        <div>
+            <div class="flip">
+                <p style="font-size: large; ">Lion</p>
+            </div>
+            <div class="panel">
+                <img src="./lion-Kenya-Masai-Mara-National-Reserve.jpg " alt="Lion">
+            </div>
+
+        </div>
+        <div>
+            <label>Name : </label>
+            <input type="text" placeholder="name">
+            <input type="search" placeholder="search anything">
+        </div>
+</body>
+
+</html>

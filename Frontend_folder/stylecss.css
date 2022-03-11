@@ -1,0 +1,56 @@
+.div {
+    padding-left: 50px;
+    margin-bottom: 80px;
+    background-color: #7ac47a;
+    background-size: cover;
+}
+
+.div:hover {
+    box-shadow: rgb(107, 238, 107);
+    background-color: rgb(107, 238, 107);
+    cursor: grab;
+    transition-delay: 0.5ms;
+}
+
+span {
+    margin-left: 700px;
+    margin-bottom: 50px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+span:hover {
+    background-color: black;
+}
+
+#setteled {
+    margin-bottom: px;
+    padding: 5px;
+}
+
+.img {
+    height: 200px;
+    width: 200px;
+    transition: transform 1s;
+}
+
+.img:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+div.panel,
+div.flip {
+    cursor: pointer;
+}
+
+div.panel {
+    height: 200px;
+    width: 200px;
+    transition: transform 1s;
+}
+
+div.panal:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
