@@ -9,12 +9,14 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    overflow: auto;
 }
 
 ul {
     list-style-type: none;
     float: right;
     margin-top: 25px;
+    margin-left: 100px;
     position: absolute;
 }
 
@@ -165,12 +167,147 @@ ul li a:hover {
 }
 
 #table:hover {
-    background-color: rgb(rgb(80, 14, 14), rgb(60, 92, 60), rgb(29, 29, 95));
     transform: scale(1.1);
 }
 
 table,
 th,
 td {
-    border: 1px solid grey;
+    border: 1px solid rgb(223, 171, 171);
+}
+
+#Experience {
+    position: absolute;
+    top: 35%;
+    margin: 0px 20px 0px 60px;
+    transition: 00.6s ease;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+#Experience:hover {
+    transform: scale(1.1);
+}
+
+#contact {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url("../image/forcontact.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@media screen and (max-width:485px) {
+    .width {
+        margin-left: 1px;
+        float: left;
+        display: flex;
+    }
+    ul li a {
+        margin: 5px;
+    }
+    #contact {
+        background-attachment: fixed;
+    }
+    ul li {
+        display: inline-flex;
+    }
+    .media {
+        display: flex;
+        width: 5%;
+        height: 10%;
+    }
+    #insta {
+        margin-left: 10px;
+        transition: 0.6s ease;
+    }
+    #linkedin {
+        margin-left: 20px;
+        transition: 0.6s ease;
+    }
+    #facebook {
+        margin-left: 30px;
+        transition: 0.6s ease;
+    }
+    #github {
+        margin-left: 40px;
+        transition: 0.6s ease;
+    }
+    #gmail {
+        margin-left: 50px;
+    }
+}
+
+#commentd_div {
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    color: #fff;
+}
+
+.for_name_div {
+    padding: 5px 7px 5px 7px;
+    margin: 10px 20px 10px 20px;
+}
+
+.set {
+    position: absolute;
+    width: 60px;
+    height: 80px;
+    top: 30%;
+    margin-left: 100px;
+    padding: 10px;
+}
+
+.icon {
+    margin: 50px;
+    padding: 10px;
+    margin: 50px;
+}
+
+#insta {
+    margin-left: 100px;
+    transition: 0.6s ease;
+}
+
+#linkedin {
+    margin-left: 200px;
+    transition: 0.6s ease;
+}
+
+#facebook {
+    margin-left: 300px;
+    transition: 0.6s ease;
+}
+
+#github {
+    margin-left: 400px;
+    transition: 0.6s ease;
+}
+
+#gmail {
+    margin-left: 500px;
+    transition: 0.6s ease;
+}
+
+#insta:hover {
+    transform: scale(1.2);
+}
+
+#linkedin:hover {
+    transform: scale(1.2);
+}
+
+#facebook:hover {
+    transform: scale(1.2);
+}
+
+#github:hover {
+    transform: scale(1.2);
+}
+
+#gmail:hover {
+    transform: scale(1.2);
 }
