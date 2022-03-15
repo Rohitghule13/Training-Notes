@@ -4,7 +4,7 @@
 }
 
 header {
-    background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url("../image/for_portfolio.jpg");
+    background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url("../portfolio_images/for_portfolio.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -88,7 +88,7 @@ ul li a:hover {
 }
 
 #coding {
-    background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url("../image/forcoding.jpg");
+    background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7));
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -114,7 +114,7 @@ ul li a:hover {
 }
 
 #aboutme {
-    background-image: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.3)), url("../image/foraboutme.jpg");
+    background-image: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.3)), url("../portfolio_images/foraboutme.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -191,7 +191,7 @@ td {
 }
 
 #contact {
-    background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url("../image/forcontact.jpg");
+    background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url("../portfolio_images/forcontact.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -200,6 +200,9 @@ td {
 }
 
 @media screen and (max-width:485px) {
+    header {
+        overflow: visible;
+    }
     .width {
         margin-left: 1px;
         float: left;
@@ -214,10 +217,19 @@ td {
     ul li {
         display: inline-flex;
     }
+    ul {
+        float: right;
+        margin-left: 10px;
+    }
+    .icon {
+        margin: 10px;
+        padding: 10px;
+    }
     .media {
         display: flex;
         width: 5%;
         height: 10%;
+        margin-left: 10px;
     }
     #insta {
         margin-left: 10px;
@@ -311,4 +323,9 @@ td {
 
 #gmail:hover {
     transform: scale(1.2);
+}
+
+.media {
+    display: inline-flex;
+    margin-left: 100px;
 }
