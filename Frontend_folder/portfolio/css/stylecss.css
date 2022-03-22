@@ -4,9 +4,9 @@
 }
 
 header {
-    background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url("../portfolio_images/for_portfolio.jpg");
+    background-image: linear-gradient(rgba(43, 19, 182, 0.315), rgba(43, 19, 182, 0.315));
     height: 100vh;
-    background-size: cover;
+    /*background-size: cover;*/
     background-position: center;
     background-repeat: no-repeat;
     overflow: auto;
@@ -202,6 +202,7 @@ td {
 @media screen and (max-width:485px) {
     header {
         overflow: visible;
+        background-attachment: fixed;
     }
     .width {
         margin-left: 1px;
