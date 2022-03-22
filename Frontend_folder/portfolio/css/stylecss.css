@@ -179,7 +179,7 @@ td {
 #Experience {
     position: absolute;
     top: 35%;
-    margin: 0px 20px 0px 60px;
+    margin: 20px 20px 0px 60px;
     transition: 00.6s ease;
     font-style: oblique;
     font-family: Arial, Helvetica, sans-serif;
@@ -263,6 +263,7 @@ td {
 .for_name_div {
     padding: 5px 7px 5px 7px;
     margin: 10px 20px 10px 20px;
+    color: #fff;
 }
 
 .set {
