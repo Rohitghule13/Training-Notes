@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+#rogh {
+    display: flex;
+    position: absolute;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+    width: 512px;
+}
+
+tr,
+td {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px
+}
+
+tr {
+    padding: 5px;
+}
+
+#pagedsng {
+    display: flex;
+}
+
+#tablepage {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+
+/*#card {
+    padding: 50px 50px 50px 50px;
+}*/
+
+button {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1210px) {
+    #pagedsng {
+        flex-direction: column;
+    }
+    #rogh {
+        flex-direction: column;
+    }
+}
+
+@media screen and(max-width:1233px) {
+    #pagedsng {
+        margin-top: 100px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
