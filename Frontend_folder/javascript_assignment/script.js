@@ -15,3 +15,5 @@ function greeting() {
 }
 
 document.getElementById('leonardo').addEventListener("click", greeting);
+var x = "I love you";
+console.log(`i wanted to say ${x}`)
