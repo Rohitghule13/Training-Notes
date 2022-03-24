@@ -86,7 +86,9 @@ h1 {
 button {
     cursor: pointer;
 }
-
+#right_side_card{
+    padding: 100px 100px 100px 100px;
+}
 @media screen and (max-width: 1210px) {
     #pagedsng {
         flex-direction: column;

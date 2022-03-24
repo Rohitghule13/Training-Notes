@@ -127,6 +127,7 @@ function rightSide(arr_no) {
                     <td>${Arr_person[arr_no].subscription.status}</td>
                     </tr>`
                     document.getElementById('right_side_card').innerHTML = html;
+                    document.getElementById('avatar').src = data[arr_no].avatar;
                 }
             )
         });
