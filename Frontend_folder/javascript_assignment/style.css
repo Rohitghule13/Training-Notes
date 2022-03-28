@@ -4,6 +4,10 @@
     text-align: center;
 }
 
+body {
+    background-color: rgb(101, 101, 240);
+}
+
 #rogh {
     display: flex;
     position: absolute;
@@ -14,21 +18,37 @@ tr,
 td {
     border: 1px solid black;
     width: 512px;
+    background-color: #fff;
 }
 
 tr,
 td {
     margin-left: 5px;
     margin-right: 5px;
-    padding: 5px
+    background-color: #fff;
 }
 
 tr {
     padding: 5px;
+    background-color: #fff;
 }
 
 #pagedsng {
-    display: flex;
+    margin: 50px 20px 8px 20px;
+    border-top-style: solid;
+    padding-top: 30px;
+    border-top-width: 1px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    border-right-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-right-width: 1px;
+    padding-right: 50px;
+    border-radius: 50px;
+    background-color: rgb(60, 60, 194);
 }
 
 #tablepage {
@@ -37,15 +57,38 @@ tr {
     left: 50px;
 }
 
+#pagedsng:-webkit-scrollbar-thumb {}
 
-/*#card {
-    padding: 50px 50px 50px 50px;
-}*/
+h1 {
+    text-align: left;
+    margin: 20px 10px 0px 10px;
+    color: #fff;
+}
+
+#card {
+    margin: 50px 20px 5px 20px;
+    border-top-style: solid;
+    padding-top: 30px;
+    border-top-width: 1px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    border-right-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-right-width: 1px;
+    padding-right: 50px;
+    border-radius: 50px;
+    background-color: rgb(60, 60, 194);
+}
 
 button {
     cursor: pointer;
 }
-
+#right_side_card{
+    padding: 100px 100px 100px 100px;
+}
 @media screen and (max-width: 1210px) {
     #pagedsng {
         flex-direction: column;
@@ -61,4 +104,9 @@ button {
         margin-left: 100px;
         margin-right: 100px;
     }
+}
+
+#avatar {
+    width: 50px;
+    height: 80px;
 }
