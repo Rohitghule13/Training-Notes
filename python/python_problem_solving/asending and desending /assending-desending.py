@@ -1,0 +1,5 @@
+lis = list(map(int,input("Enter numbers : ").split()))
+lis.sort()
+print("Assending order List : ",lis)
+lis.sort(reverse=True)
+print("Dessending order List : ",lis)
