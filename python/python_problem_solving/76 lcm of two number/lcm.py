@@ -9,6 +9,7 @@ def lcm(num1,num2):
             print(f"{largest} this is LCM of {num1}, {num2}")
             break
         largest += 1
+    print()
 num1 = int(input("Enter Number : "))
 num2 = int(input("Enter Number : "))
 lcm(num1,num2)
