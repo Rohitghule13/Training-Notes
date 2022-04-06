@@ -1,0 +1,286 @@
+Python Problem Solving
+Git hub link :- https://github.com/Rohitghule13/Training-Notes
+
+1. Convert Hours into Seconds
+Logic = I used function,row and class for converting Hours into seconds the logic is 1 hour contain 60min and 1 minute contain 60 seconds so i converting hours into the minutes and minutes into seconds 
+So this problem solved in multiple ways also using exception handling 
+
+2. Return the Sum of Two Numbers
+Logic = This is simple problem statement i solved this problem in different ways using function, row, class and also used exception handling also, i get two input from user and + operator used for summing the number like function return a+b,in row print(a+b), in class return a+b
+
+3. Return the Next Number from the Integer Passed
+Logic = in this problem statement i get input from user and simply add with one to get next integer number its like iterate by one like : a += 1 where in (a) contan next value after this operation 
+
+4. Return the Remainder from Two Numbers
+Logic = In this problem statement i get two input from user and used % module sign to perform the operation and also used exception handling 
+
+5. Return a String as an Integer
+Logic = I get the input from user as string it convert into integer using int() function so perform this problem in different ways using exception handling 
+
+6. Convert Age to Days
+Logic = We know in a year there are 336 days so and age is in year like 23*336 = 7728  age*336 = result
+Hence perform this operation to multiple ways using exception handling 
+
+7. Power Calculator
+Logic = I get input from user like (a**b) and print out the output and also this problem i solved using different ways like function, row, class and also one function which is pow(a,b)
+
+8. Boolean to String Conversion
+Logic = using str() function i made this conversion
+
+9. Return the First Element in a List
+Logic = I create list and give index as 0 because list index is start from 0 so eventually first element is at 0 index
+
+10. Football Points
+Create a function that takes the number of wins, draws and losses and calculates the number of points a football team has obtained so far.
+wins get 3 points
+draws get 1 point
+losses get 0 points
+Logic = i set the win point is equal to 20 and loss team gets 0 so on this logic there was function to calculate it
+
+11. The Farm Problem
+In this challenge, a farmer is asking you to tell him how many legs can be counted among all his animals. The farmer breeds three species:
+chickens = 2 legs
+cows = 4 legs
+pigs = 4 legs
+The farmer has counted his animals and he gives you a subtotal for each species. You have to implement a function that returns the total number of legs of all the animals.
+Logic = chicken have 2 legs so chicken*2
+Cows have 4 leges so cows*4
+Pigs have 4 legs so pigs*4
+So totally add the result of each and we get total number of legs
+
+12. Convert Hours and Minutes into Seconds
+Logic = Its like previous problem similar solving method i used in different ways like function, row, and class method 
+
+13. String to Integer and Vice Versa
+Logic = using int() And str() function i made the solution over it and also using different ways try to solve the problem hence also exception handling is there  
+
+14. Check if objOne Is Equal to objTwo
+Create a function that checks to see if two object arguments are equal to one another. Return True if the objects are equal, otherwise, return False.
+Logic = in python there are all in object so we can check the object properties using (is) keyword such as ( x is y ) return true if they are same else false
+
+15. Find the Largest Number in a List
+Create a function that takes a list of numbers. Return the largest number in the list.
+Logic = I get input list from user Using various method to solve this problem using like max() function is there to solve this problem in very easy and quick manner and i also used for loop for finding largest number in list 
+
+16. Find the Smallest Number in a List
+Create a function that takes a list of numbers and returns the smallest number in the list.
+Logic = I get input list from user Using various method to solve this problem using like min() function is there to solve this problem in very easy and quick manner and i also used for loop for finding largest number in list also exception handling is there
+
+17. Difference of Max and Min Numbers in List
+Create a function that takes a list and returns the difference between the biggest and smallest numbers.
+Logic = i used conventional and built in function in the program output gets accurate build in function has less line of code
+
+18. Concatenating Two Integer Lists
+Create a function to concatenate two integer lists.
+Logic = i get number of list from user and concat each other using conventional method like using + sign and also in built function also i added error handling there 
+ 
+19. Maximum Difference
+Given a list of integers, return the difference between the largest and smallest integers in the list.
+Logic = get input from user and find out smallest and largest number in list with logic  method like using for loop to check smallest and largest number and also using in build function there is also error handling to handle any error within the program
+
+20. Return the Last Element in a List
+Create a function that accepts a list and returns the last item in the list. The list can be either homogeneous or heterogeneous.
+Logic = we know the list indexing start from 0 but last to first indexing is start from -1 hence the -1 is last index of the list also i added exception handling 
+
+21. Check if an Integer is Divisible By Five
+Create a function that returns True if an integer is evenly divisible by 5, and False otherwise.
+Logic = it is quite simple problem statement of i need to chcek only if the given number is divisible by 5 hence its remainder is 0 so i return the conditional statement like 
+     if a%5==0:
+
+22. Get the Sum of All List Elements
+Create a function that takes a list and returns the sum of all numbers in the list.
+Logic = i create function for it solved this problem in multiple ways like there have in build function sum() this function return the addition of all content in list hence there have addition logic to iterate list element one by one and add them i did both
+
+23. Compare Strings by Count of Characters
+Create a function that takes two strings as arguments and return either True or False depending on whether the total number of characters in the first string is equal to the total number of characters in the second string.
+Logic = i counted the character in the string and compare to the other string if it is equal return True or False
+
+24. Divides Evenly
+Given two integers, a and b, return True if a can be divided evenly by b. Return False otherwise.
+Logic = i get input from user and divide by 2 and compare the remainder with 0 is eual to 0 so input integer is even
+
+25. Recursion to Repeat a String n Number of Times
+Create a recursive function that takes two parameters and repeats the string n number of times. The first parameter text is the string to be repeated and the second parameter is the number of times the string is to be repeated.
+Logic = it quite simple task, hence i get user input like string and integer and repeat it as integer entered i used recursive function, function call itself
+
+26. Write a program which will find all such numbers which are divisible by 7 but are not a multiple of 5. The numbers obtained should be printed in a comma-separated sequence on a single line.
+You can take any range like 2000-4700 or 3800-4900 etc 
+Check if both range number also included in output 
+Logic = i get input from user to start and stop integer and iterate value using for loop till stop integer while check integer is divided by 7 and not contain multiple 5 there so create function according to it and return true when there is not multiple 5 or false 
+
+27. Define a class/function which has at least two methods: getString: to get a string from console input printString: to print the string in upper case. 
+
+Logic = i create class and also created its method getstring and printstring
+
+28. Write a program that accepts a comma separated sequence of words as input and prints the words in a comma-separated sequence after sorting them alphabetically. 
+Logic =  get input string from user find out index of space separated word and slice the string and it convert to string apply the sorting method and print joined word with comma separated 
+
+
+
+
+29. Write a program, 
+which will find all such numbers between 0 and n (both included) such that each digit of the number is an even number. The numbers obtained should be printed in a comma-separated sequence on a single line.
+N is take input from console 
+Logic = get the input from user and iterate it through for loop check integer is divisible by 2 
+
+30. Write a program that accepts a sentence and calculate the number of letters and digits and also calculates the upper and lower case letters
+
+31. Write a program to square each odd number in a list. 
+Take a list - list contains at least 20 elements
+Logic = i create list and find out the odd number and square it also i used lambda function for it 
+
+32. Write a program that computes the net amount of a bank account based on a transaction log from console input. 
+Log format is :  D 100 W 200
+D means deposit while W means withdrawal. Suppose the following input is supplied to the program: D 300 D 300 W 200 D 100 Then, the output should be: 500
+
+33. Write a program to check the validity of password input by users. 
+Following are the criteria for checking the password:
+At least 1 letter between [a-z]
+At least 1 number between [0-9]
+At least 1 letter between [A-Z]
+At least 1 character from [$#@]
+Minimum length of transaction password: 7
+No space accepted
+Maximum length of transaction password: 12 Your program should accept a sequence of comma separated passwords and will check them according to the above criteria. Passwords that match the criteria are to be printed, each separated by a comma. Example If the following passwords are given as input to the program: ABd1234@1, Then, the output of the program should be: ABd1234@1
+ 
+
+34. write a program to sort the data by ascending and descending order 
+Take list of data - you can take input from console or define list
+
+35. Define a function that can accept two strings as input and print the string with maximum length in the console. If two strings have the same length, then the function should print all strings line by line.
+
+36.  Write a function to compute 5/0 and use try/except to catch the exceptions.
+
+37.  Write a program which accepts a sequence of words separated by whitespace as input to print the words composed of digits only.
+Example : 2 cats and 3 dogs.
+Output should be : 
+['2', '3']
+[‘cats’, ‘dogs’]
+38 . Write a program to perform all basic mathematical operations 
+
+39.  write a program to print the list after removing the 0th,4th,5th numbers from list 
+List [12,24,35,70,88,120,155,99,12,7,8,93,67,47,76,34,43,76,23,01].
+Logic = to removing element in the list using index hence i removed element index vise start from higher index number 
+
+40. write a program to print the duplicates number from the list . Print output in comma separated list 
+[12,24,35,70,88,120,155,99,12,7,8,93,67,47,76,34,43,76,23,01, 12,88,7,6,2].
+Logic = i create one function and create one another list to store the duplicate value  in it hence above list is stored another created list and that list is coveted into the set and set into list we know set can not contain any duplicate number so i iterate that set list and using count function count the element in the original list if it is count more than 1 so that element append in the duplicate list 
+Second program is quite similar to the above one but different is in this program im not used set function and count function it is pure logic based 
+
+41. write a program which accepts a string from the console and print it in reverse order.
+            
+
+42. Write a function to replace word with another word and another function to replace only alphabet 
+
+43. Find the day of the week from given date , dae input from console 
+44. Create a list by picking an odd-index items from the first list and even index items from the second
+l1 = [3, 6, 9, 12, 15, 18, 21]
+l2 = [4, 8, 12, 16, 20, 24, 28] 
+Output 
+Element at odd-index positions from list one
+[6, 12, 18]
+Element at even-index positions from list two
+[4, 12, 20, 28]
+
+Printing Final third list
+[6, 12, 18, 4, 12, 20, 28]
+
+45. Remove items from list 
+list1 = [54, 44, 27, 79, 91, 41]
+Out
+List After removing element at index 4  [34, 54, 67, 89, 43, 94]
+List after Adding element at index 2  [34, 54, 11, 67, 89, 43, 94]
+List after Adding element at last  [34, 54, 11, 67, 89, 43, 94, 11]
+
+46. Slice list into 3 chunks and reverse each chunks 
+sample_list = [11, 45, 8, 23, 14, 12, 78, 45, 89] 
+
+
+47. Count Occurance of each element from list
+sample_list = [11, 45, 8, 11, 23, 45, 23, 45, 89]
+
+
+48. Concant two list index wise 
+list1 = ["M", "na", "i", "Ke"]
+list2 = ["y", "me", "s", "lly"]
+49.Concatenate two list in following 
+list1 = ["Hello ", "take "]
+list2 = ["Dear", "Sir"]  output : ['Hello Dear', 'Hello Sir', 'take Dear', 'take Sir']
+50. Take two list and Iterate both list simultaneously and print output
+
+51. Extend nested list by adding sub list with specific index taken from console 
+
+52. Reverse the tuple
+
+53.Remove repetitive elements from the list, list length should be 25 include number, char etc
+
+54.Sort tuple by 2nd item tuple1 = (('a', 23),('b', 37),('c', 11), ('d',29))
+
+55. Calculate no of days between two date , take input from console 
+
+56 .Modify the tuple
+
+57. Calculate the date 7 month from any date, take date input from console
+
+58. Convert list into dictionary and add new item into dictionary
+
+59. Merge two dictionaries into one and rename dictionary key name 
+
+60.  Check if key exists in dictionary and delete that key value from dictionary
+
+61. Get only unique items from dictionary
+
+62. Return new set of identical items from two sets
+63. DOWN, LEFT and RIGHT with a given step. The trace of robot movement is shown as the following: (Note : Take input from console)
+UP 5
+DOWN 3
+LEFT 3
+RIGHT 2
+Please write a program to compute the distance from the current position after a sequence of movement and original point. If the distance is a float, then just print the nearest integer.
+ 64. Write a program to print the sum of the polygon angle side in degree . Take side of angle input from console 
+
+  65. Create a function that takes a string's characters as ASCII and returns each character's hexadecimal value as a string.
+
+ 66. Create a function that takes a number and returns its length(use of the len() function is prohibited)
+Logic = get the input from console in integer format and then create on function to count the length of number the integer is converted into string and iterate this string char also simultaneously count the number of loop repeated end of the loop we get length of the integer 
+
+ 67. Given the month and year as numbers, return whether that month contains a Friday 13th.
+
+ 68. Create a function that takes a list and string. The function should remove the letters in the string from the list, and return the list.
+
+69. Create a function that takes a string containing integers as well as other characters and return the sum of the negative integers only. Ex negative_sum("22 13%14&-11-22 13 12") => -11 + -22 = -33
+
+70. Write a program to identify if number is palindrome or not 
+
+71. Check char is digit without using isdigit() , take input from console 
+
+72. Check if given char is vowel or consonant
+
+73. Create a function that takes two dates and returns the number of days between the first and second date.
+
+74. Create a function that takes an array of strings and returns an array with only the strings that have numbers in them. If there are no strings containing numbers, return an empty array.
+
+75. Given a string, reverse all the words which have odd length. The even length words are not changed.
+
+76. Write a function that returns the least common multiple (LCM) of two integers.
+
+77. Create a function that returns the sum of missing numbers.
+sumMissingNumbers([1, 3, 5, 7, 10]) ➞ 29
+// 2 + 4 + 6 + 8 + 9
+
+78. Given a string of letters in the English alphabet, return the letter that's missing from the string. The missing letter will make the string be in alphabetical order (from A to Z).
+If there are no missing letters in the string, return "No Missing Letter".
+missingLetter("abdefg") ➞ "c"
+
+79. Create a left rotation and a right rotation function that returns all the left rotations and right rotations of a string.
+leftRotations("abc") ➞ ["abc", "bca", "cab"]
+rightRotations("abc") ➞ ["abc", "cab", "bca"]
+
+80. Create a function that takes a string and returns it back in camelCase.
+camelCasing("Hello World") ➞ "helloWorld"
+
+81. Check if given char is vowel or consonant 
+
+
+
+
