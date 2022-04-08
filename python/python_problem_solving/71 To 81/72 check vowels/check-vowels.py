@@ -7,3 +7,4 @@ if char in vowels: # if input character is vowel so if is follwed
 
 else:   # else is follwed when char is not present in vowel
     print(f"'{char}' is consonant")
+    vowels.c
