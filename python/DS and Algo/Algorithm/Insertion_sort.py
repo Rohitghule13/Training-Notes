@@ -23,7 +23,7 @@ for i in range(1,len(array)):
 
     j = i-1 # set the array index previous of the initial_val index
     
-    while j>=0 and initial_val>array[j]: #comapre the follows the loop
+    while j>=0 and initial_val>array[j]: #compare and follow the loop when it is true
         array[j+1] = array[j] # move ahead the element in array 
         j -= 1 
 
