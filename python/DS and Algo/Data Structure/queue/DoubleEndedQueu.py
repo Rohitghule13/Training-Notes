@@ -16,9 +16,9 @@ class Queue:
             self.qu[self.rear] = a
             return True
  
-        elif (self.size+1)==self.rear and self.front>0:
-            for i in range(0,self.rear):
-                self.qu[i] = self.qu[i+1]
+        elif (self.rear+1)==self.size and self.front>0:
+            for i in range(self.front,self.rear):
+                self.qu[i-1] = self.qu[i]
             self.qu[self.rear] = a
             self.front -= 1
             return True
