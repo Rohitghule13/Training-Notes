@@ -1,8 +1,5 @@
 # In this type of queue inseration and removal opeartion can be done from both end
 # front and rear
-from urllib3 import Retry
-
-
 class Queue:
     def __init__(self, size):
         self.size = size
