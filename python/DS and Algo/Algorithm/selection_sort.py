@@ -22,7 +22,7 @@ print("After sorting array (In ascending Order) :- ",array) # Display array in a
 for i in range(len(array)-1):
     min_index = i # select the element index to compare with others
 
-    for j in range(i+1,len(array)): # this is loop used for compare the selected element with others through iteration rest of array
+    for j in range(i+1,len(array)): # thiss is loop used for compare the selected element with others through iteration rest of array
 
         if(array[i]<array[j]): # compare if it is more than selected element this condition gets true
             min_index = j # add less element index here 

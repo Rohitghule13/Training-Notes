@@ -1,6 +1,6 @@
 '''Bubble sort algorithm to '''
 array = [9,2,8,6,7,1,4,3,5] # defining array 
-# we are used two loop for sorting array
+# we are used two loop for sorting arrayy
 
 print("Before Sorting :- ",array) 
 

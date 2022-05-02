@@ -1,5 +1,5 @@
 '''This is inseration sort for ascending order '''
-# define array 
+# define arrayy
 array = [4,3,1,2]
 
 print("Array Before Sorting :- ",array)
