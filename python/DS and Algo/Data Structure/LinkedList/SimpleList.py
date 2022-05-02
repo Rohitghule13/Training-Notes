@@ -1,5 +1,5 @@
 class node:
-    
+
     def __init__(self,data):
         self.data = data
         self.nextt = None
@@ -27,7 +27,6 @@ class Linkedlist:
         self.head.nextt = temp
         return True
     
-
     def displayList(self):
         temp = self.head
         while(temp!=None):
