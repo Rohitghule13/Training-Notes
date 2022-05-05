@@ -36,16 +36,19 @@ class Linkedlist:
     
     def searchElement(self,val):
         temp = self.head
-        place = 1
+        # place = 1
         while(temp!=None):
             if temp.data==val:
-                
-                return True,place
-            place += 1
+                return temp
+            # place += 1
             temp = temp.nextt
+        print("Element is not present in list")
         return False
     
     def deleteElement(self,val):
+        if(self.searchElement(val)==False):
+            print("Element is not present in list")
+            return
         temp = self.head
         prev = self.head
         while(temp!=None):
@@ -61,7 +64,19 @@ class Linkedlist:
         prev.nextt = nexttt
         del temp
         return True
-
+    
+    def inseration_in(self,i,j):
+        if self.head == None:
+            print("Linked list is Empty")
+            return False
+        else:
+            temp = self.searchElement(i)
+            new_node = node(j)
+            new_node.nextt = temp.nextt
+            temp.nextt = new_node
+            
+            return
+    
 llist = Linkedlist()
 # llist.addAtTail(0)
 # llist.addAtTail(5)
@@ -74,3 +89,13 @@ llist.deleteElement(3)
 llist.displayList()
 llist.deleteElement(6)
 llist.displayList()
+llist.searchElement(11)
+llist.deleteElement(11)
+llist.inseration_in(1,11)
+llist.displayList()
+llist.inseration_in(4,6)
+llist.displayList()
+i = llist.searchElement(11)
+print(i.data,i.nextt)
+
+
