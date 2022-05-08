@@ -2,7 +2,7 @@
 class Queue:
     def __init__(self,size): # define the important flags and variable 
         self.size = size                      # get the size of queue
-        self.qu = [None for i in range(size)] # generete empty list here 
+        self.qu = [None for i in range(size)] # generate empty list here 
         self.front = self.rear = -1           #this is front and rear flags
     
     def enQueue(self,val):   # method to add the element in queue
@@ -28,9 +28,13 @@ class Queue:
 
     def deQueue(self): # this method is used for dequeue element from queue
 
-        if self.front == None: # condition check queue is empty or not
+        if self.front == self.rear: # condition check queue is empty or not
+            temp = self.qu[self.front]
+            print()
             print("Queue is Empty")
-            self.front = -1    # set front flag
+            # self.front = -1   # set front flag
+            # self.rear = -1   
+            
 
         else: # above condition gets false follow this
 
@@ -38,14 +42,22 @@ class Queue:
             self.qu[self.front] = None  # when element gets retrive once on that place palce None
             self.front = (self.front + 1 )% self.size # set the front value by perform math function
             print("Queue Element :- ",temp)  
+            return temp
 
     def displayQueue(self): # display queue method
         if self.front==-1:
             print("The Queue is Empty")
         else:
             print("Orignal Queue :- ",self.qu)
-            print("front to rear :- ",self.qu[self.front:])
-
+            # print("front to rear :- ",self.qu[self.front:])
+    
+    def check_frist_element(self):
+        print("Frist Element :- ",q.qu[self.front])
+        return
+    
+    def check_last_element(self):
+        print("Last Element :- ",q.qu[self.rear])
+        return
 q = Queue(3)
 q.displayQueue()
 q.enQueue(2)
@@ -53,12 +65,9 @@ q.enQueue(1)
 q.enQueue(3)
 q.enQueue(4)
 q.displayQueue()
+q.check_frist_element()
+q.check_last_element()
 q.deQueue()
+q.enQueue(21)
 q.displayQueue()
-q.enQueue(4)
-q.displayQueue()
-q.deQueue()
-q.deQueue()
-q.deQueue()
-q.deQueue()
-q.deQueue()
+q.check_last_element()
